@@ -1,0 +1,20 @@
+{
+  "name": "surveytemplate",
+  "version": "1.0.0",
+  "description": "survey autogenerator",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nthangeniph/SurveyTemplate.git"
+  },
+  "author": "Nthangeni Phumudzo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nthangeniph/SurveyTemplate/issues"
+  },
+  "homepage": "https://github.com/nthangeniph/SurveyTemplate#readme"
+}

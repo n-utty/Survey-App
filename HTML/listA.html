@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Styling/admin.css">
+    <title>Survey List</title>
+</head>
+<body>
+  <div class="menubar">
+    <h1 id="tt">Welcome, you are logged in as an Admin</h1>  </div>
+    <div class = "Container"> 
+      <div id="sidebar">
+        <hr><h3 id="home">Home</h3><hr>
+        <h3 id="survey">Surveys</h3><hr>
+        <h3 id="cSurvey">Create Survey</h3><hr>
+        <h3 id="rep">Reports</h3><hr>
+
+    </div>
+        <div id="listT" class="take">
+          <h1 class = 'lTitle'>Survey List</h1>
+          <!-- <button id="create"  class="logB">Create Survey</button> -->
+        </div>
+      <!-- </div> -->
+
+      <!-- <div id="pop" class = "pop">  -->
+        <div id="creatCon" class="survDetails">
+          <h1 class = 'lTitle'>Create Survey</h1>
+
+          <div class="q_container1">
+            
+            <label class="questions">Survey Name:</label>
+            <input id="survName" type="text" class="input1"><hr>
+          </div>
+
+          <div class="q_container1">
+            <label class="questions">Admin Name: </label>
+            <input id="Creator" type="text" class="input1"><hr>
+          </div>
+          <div class="l_container">
+            <p class="l_q">Survey Description</p><br>
+            <textarea id="description" rows="7" cols="40" class="comment1" required></textarea>
+        </div>
+
+          <button id="create"  class="logB">Create Survey</button>
+        </div>
+
+        <div id="report">
+          <div id ="labels">
+            <h2 id="hd1">Survey</h2>
+            <h2 id="hd2">Responses</h2>
+          </div>
+        </div>
+      </div>
+
+
+
+<!-- <script src="../Javascript/pr.js"></script>    -->
+<script src="../Javascript/main.js"></script>
+</body>
+</html>

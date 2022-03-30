@@ -1,0 +1,247 @@
+.username{
+    margin-left: 200px;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 14px;
+    padding-bottom: 30px;
+    /* font-weight: bold; */
+    
+}
+
+/* images */
+#img1{
+    margin-top: 20px;
+    margin-left: 150px;
+    border-radius: 50%;
+    width: 150px;
+    align-self: center;
+    height: 150px;
+    background-color: radial-gradient(rgb(91, 86, 158),lightgray);
+    
+}
+/* boxfusion */
+.img2{
+    margin-top: 20px;
+    margin-left: 300px;
+    border-radius: 50%;
+    width: 200px;
+    align-self: center;
+    height: 200px;
+    margin-bottom: 30px;
+    
+}
+
+.img3{
+    margin-top: 10px;
+    margin-left: 200px;
+    border-radius: 10%;
+    width: 130px;
+    align-self: center;
+    height: 130px;
+    margin-bottom: 5px;
+    
+}
+
+/* login container */
+.Container{
+    position: inherit;
+    margin-top: 10%;
+}
+
+/* sign up */
+.Container2{
+    position: inherit;
+    margin-top: 10%;
+    display: none;
+    
+}
+.logTitle{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 29px;
+    text-decoration: underline;
+    font-family: 'Times New Roman';
+}
+/* content of login and sign up */
+.Login{
+
+    border-radius: 20px;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    width: 450px;
+    height: fit-content;
+    background-image: linear-gradient(rgb(46, 49, 31),rgb(255, 255, 255));
+}
+body{
+    background-image: radial-gradient(darkgray,rgb(6, 4, 70));
+    font-family: sans-serif;
+    /* background-image: url(../images/T9cHuP.webp); */
+}
+
+.logB{
+    margin-top: 30px;
+    width: 90px;
+    color: white;
+    font-size: medium;
+    margin-left: 180px;
+    border-radius: 10px;
+    padding:    5px;
+    background-color: rgb(78, 8, 241);
+}
+
+.subB1{
+    margin-bottom: 20px;
+    width: 130px;
+    color: white;
+    font-size: medium;
+    margin-left: 180px;
+    border-radius: 10px;
+    padding:    5px;
+    background-color: rgb(78, 8, 241);
+}
+
+#login_Form{
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+#crt{
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.user_input{
+    margin-top: 5px;
+    margin-left: 20px;
+    height: 30px;
+    width: 400px;
+    background: white;
+    border: rgb(91, 86, 158) 5px;
+    border-radius: 10px;
+}
+.create{
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+
+.q_container{
+    background-color: lightgray;
+    display: grid;
+    grid-template-columns: 6fr 2fr;
+}
+
+.q_container1{
+    display: grid;
+    color: white;
+    grid-template-columns: 6fr 2fr;
+}
+
+.l_container{
+    background-color: lightgray;
+}
+
+.myForm{
+    
+    border-radius: 20px;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    width: 800px;
+    height: fit-content;
+    background-image: radial-gradient(rgb(17, 0, 0),lightgray);
+}
+
+.dropdowns{
+    margin-right: 10px;
+    height: 35px;
+    padding-left: 20px;
+    width: fit-content;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.subB{
+    margin-top: 30px;
+    width: 90px;
+    color: azure;
+    font-size: medium;
+    margin-left: 380px;
+    border-radius: 10px;
+    padding:    5px;
+    background-color: rgb(83, 37, 10);
+}
+
+.questions{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.l_q{
+    padding-top: 30px;
+    text-align: center;
+}
+.comment{
+    border-radius: 10px;
+    justify-self: center;
+    margin-left: 100px;
+}
+
+.info{
+    text-align: center;
+    font-size: 10px;
+    padding-bottom: 10px;
+}
+.description{
+    text-align: center;
+    font-size: 14px;
+    color: rgb(73, 44, 8);
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* pop up welcom */
+.welcome{
+
+    border-radius: 20px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    justify-content: space-evenly;
+    width: 500px;
+    color: rgb(0, 0, 0);
+    height: fit-content;
+    background-image: radial-gradient(rgb(20, 20, 20),rgb(252, 249, 249));
+    
+    /* opacity: 0.5; */
+}
+.descr,.para{
+    text-align: center;
+    /* color: darkblue; */
+}
+
+.Containerr{
+    margin-top: 5%;
+    position: inherit;
+}
+
+h2{
+    color:rgb(194, 192, 192);
+}
+
+.form_cont{
+    position: inherit;
+    margin-top: 5%;
+    display: none;
+
+}
+
+.admin{
+    border-radius: 10px;
+    height: 25px;
+    margin-left: 45px;
+}
+.check{
+    display: flex;
+}
+
+.usernam{
+    color: rgb(0, 0, 0);
+    padding-left: 20px;
+}

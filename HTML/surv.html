@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <link rel="stylesheet" href="../Styling/styl.css">
+        <title>Login</title>
+    </head>
+
+<body>
+  <!-- Login Screen -->
+    <div class = "Container"> 
+      <div class="Login">
+        <i class="fa-solid fa-lock-keyhole-open"></i>
+          <img  id ='img1' src="../images/user.png">
+        <h1 class = 'logTitle'>Sign In</h1>
+        <form id="Login_form">
+            <label for ='username' class="username">User name</label>
+            <input id="lusername" class="user_input" placeholder="Enter Your Username" type="text" required> <hr>
+            <label  for ='password'  class="username">Password</label>
+            <br>
+            <input id="lpassword" class="user_input"  placeholder="Password" type='password' required>
+            <button id="logB" type="submit" class="logB">Log in</button>
+            <p id='sign' class="create">Don't have accout?<strong>Sign Up</strong></p>
+        </form>
+      </div>
+    </div>
+
+<!-- Register Screen -->
+    <div class = "Container2"> 
+        <div class="Login">
+          <h1 id='crt' class = 'logTitle'>Create Account</h1>
+          <form id="sign_form">
+              <label  for ='username' class="username">User name</label>
+              <input id ='cUsername' class="user_input" placeholder="Email or create a Username" type="text" required> <hr>
+
+              <label for ='password' class="username">First-Name</label>
+              <input id="fullName" class="user_input" placeholder="Your First name" type="text"> <hr>
+
+              
+              <label for ='password' class="username">Password</label>
+              <input id ="cPassword" class="user_input" placeholder="Create Password" type="password" minlength="8" required> <hr>
+              <!-- <div class="check">
+              <label for ='password' class="usernam">Are you an Admin?</label>
+              <select  class="admin">
+                <option >Yes</option>
+                <option >No</option>
+              </select>
+              </div> -->
+              <button id="signB" type="submit" class="logB">Sign Up</button>
+              <p id='log' class="create">Already have accout?<strong>Sign in</strong></p>
+
+          </form>
+        </div>
+      </div>
+
+<!-- Welcome Screen-->
+
+      <script src="../Javascript/main.js"></script>
+      <!-- <script src="../Javascript/pr.js"></script> -->
+</body>
+

@@ -1,0 +1,114 @@
+.main-container {
+  background-image: radial-gradient(rgb(30, 29, 31),rgb(238, 238, 241));
+  width: 55%;
+  height: 900px;
+  margin: 1% auto;
+  border-radius: 2%;
+}
+
+.survey-header {
+  background-color: rgb(6, 6, 70);
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 600px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px;
+  position: relative;
+  top: -30px;
+  color: whitesmoke;
+}
+.question {
+  /* color: white; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dot {
+  height: 45px;
+  width: 45px;
+  background-color: rgb(9, 9, 119);
+  border-radius: 50%;
+  display: inline-block;
+}
+.numbering {
+  position: relative;
+  top: 30%;
+  left: 35%;
+  color: white;
+}
+h2 {
+  width: 350px;
+  margin-left: 10px;
+}
+.answer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -3rem;
+}
+.arrow-answer {
+  color: green;
+  font-size: 20px;
+}
+.standard-input {
+  width: 250px;
+  height: 35px;
+  border-radius: 5px;
+}
+
+.arrow-answer-yes-no {
+  justify-content: flex-start;
+}
+.yes-no {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.answer-yes-no {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -11rem;
+}
+
+.answer-textAreaField {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 3rem;
+}
+.answer-checkRadio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -11rem;
+}
+
+.radioQuestions {
+  display: block;
+}
+
+.submitting-answers {
+  background-color: rgb(6, 6, 70);
+  color: white;
+  width: 11rem;
+  height: 3rem;
+  border-radius: 5px;
+  position: relative;
+  top: 3%;
+  left: 40%;
+}
+.submitting-answers:hover {
+  cursor: pointer;
+  box-shadow: 5px 10px red;
+}
+
+body{
+  background-image: radial-gradient(rgb(6, 6, 70),rgb(95, 95, 95));
+  /* background-color: rgb(6, 6, 70); */
+}

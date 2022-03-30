@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../Styling/admin.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Questions</title>
+</head>
+<body>
+    <div class="menubar">
+        <h1 id="Home">Creating survey questions</h1>
+       
+      </div>
+    <div class = "pop1"> 
+    <div id="q" class="survDetails2">
+        <h1 class = 'lTitle'>Create Questions</h1>
+        <div class="l_container">
+          <p class="l_q1">Add Question in the text area below</p><br>
+        <div id="qArea">
+          <textarea id="question" rows="3" cols="40" class="comment"></textarea>
+          <select id="qType">
+              <option value=0 >input</option>
+              <option value=1 >yes/no</option>
+              <option value=2 >range</option>
+          </select>
+        </div>
+          <button id="addQ" >Add question</button>
+          <button id="done"  class="done">Done</button>
+      </div>
+    </div>
+
+    
+        <div class="survDetails1">
+          <h1 class = 'lTitle'>Survey Information</h1>
+
+          <div class="q_container1">
+            <label class="questions">Survey Name :</label><h3 id="surv">Not Available</h3>
+          </div><hr>
+
+          <div class="q_container1">
+            <label class="questions">Created By  : </label><h3 id="crtName">Not Available</h3>
+          </div><hr>
+
+          <div id="Questions" class="l_container">
+            <p class="l_q">Survey Questions</p><br>
+        </div>
+        </div>
+    </div>
+    <script src="../Javascript/main.js"></script>
+</body>
+</html>

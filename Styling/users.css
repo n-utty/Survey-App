@@ -1,0 +1,129 @@
+#menu{
+    padding-top: 1px;
+    text-align: center;
+    background-color: rgb(183, 184, 183);
+    height: 70px;
+}
+
+#sidebar{
+    width: 300px;
+    /* background-color: rgb(133, 136, 135); */
+    height: 50vh;
+    color: white;
+}
+
+#screen{
+    margin-top: 7%;
+    background-image: radial-gradient(rgb(30, 29, 31),rgb(247, 247, 248));
+    height: auto;
+    width: 80vh;
+    border-radius: 10px;
+}
+#screen2{
+    height: 60vh;
+    background-image: radial-gradient(rgb(30, 29, 31),rgb(247, 247, 248));
+    width: 60vh;
+    visibility: hidden;
+}
+#cont{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.info{
+   
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 25px;
+
+}
+
+.del{
+    border-radius: 10px;
+    height: 25px;
+}
+
+.list{
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: 3fr 1fr 0.5fr ;
+    height: fit-content;
+   
+}
+
+body{
+    background-image: radial-gradient(darkgray,rgb(6, 6, 70));
+}
+
+#About{
+    width: 500px;
+    margin: 0 auto;
+    /* background-color: radial-gradient(rgb(30, 29, 31),rgb(247, 247, 248)); */
+    color: white;
+    border-radius: 10px;
+    
+}
+
+.q_container1{
+    height: 70px;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    height: 40px;
+}
+.l_q{
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+.questions{
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.item{
+    padding-bottom: 10px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+#title{
+    text-align: center;
+    text-decoration: dotted;
+}
+
+#headers{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    text-decoration: underline;
+}
+#Rtitle{
+    text-align: center;
+    text-decoration: underline;
+}
+#responses{
+    /* background-color: antiquewhite; */
+    background-image: radial-gradient(rgb(30, 29, 31),rgb(245, 245, 248));
+    width: 80%;
+    color: black;
+    margin-top: 10%;
+    margin-left: 10%;
+    border-radius: 10px;
+
+}
+.repAns{
+    height: 60px;
+    margin-left: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 20px;
+    color: white;
+}
+header{
+    height: 70px;
+    font-weight: bold;
+    background-color: antiquewhite;
+    text-align: center;
+    font-size: 30px;
+}
+.answer{
+    padding-left: 30px;
+}
